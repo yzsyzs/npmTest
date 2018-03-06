@@ -5,6 +5,11 @@
   "author": "YuZhiShuang <you@example.com>",
   "license": "MIT",
   "private": false,
+  "main": "dist/vue-pay-keyboard.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yzsyzs/npmTest"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
